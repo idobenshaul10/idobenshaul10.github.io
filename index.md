@@ -1,5 +1,3 @@
-
-# Ido Ben-Shaul
 ## PhD student at Tel Aviv University
 
 ## About Me
