@@ -1,5 +1,3 @@
-## PhD student at Tel Aviv University
-
 ## About Me
 I am a 24 year old Phd. Candidate in Applied Math at Tel Aviv University. My advisors are [Shai Dekel](https://www.shaidekel.com/) and [Nir Sochen](http://www.math.tau.ac.il/~sochen/). My field of interest is the Mathematical Foundation of Machine Learning. I am also a Team Lead DeePathology.ai.
 
