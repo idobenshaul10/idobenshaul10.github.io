@@ -1,10 +1,11 @@
 
-@import "{{ site.theme }}";
+/* @import "{{ site.theme }}"; */
 /* 
 footer {
   display: none !important;
 } */
 
-.btn {
+/* .btn {
   display: none !important;
 }
+ */
