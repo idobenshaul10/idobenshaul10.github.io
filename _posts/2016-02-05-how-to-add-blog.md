@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Sample blog post"
+date:   2014-05-05 22:10:33 +0200
+permalink: sample_blog
+---
+<!--more-->
+
+## This is my first post 
+yad yday ydad

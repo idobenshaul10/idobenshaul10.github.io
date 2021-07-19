@@ -1,3 +1,30 @@
 theme: jekyll-theme-architect
 title: Ido Ben-Shaul
 description: PhD student at Tel Aviv University
+
+email: ido.benshaul@gmail.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://github.com/idobenshaul10" # the base hostname & protocol for your site, e.g. http://example.com
+twitter:
+  username: ml_norms
+github_username:  idobenshaul10
+
+comments: 
+ provider: disqus
+disqus: 
+ short_name: ml-norms
+
+google_analytics: UA-88816088-1
+# Build settings
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+theme:
+gems:
+  - jekyll-feed
+exclude:
+  - Gemfile
+  - Gemfile.lock
+
+excerpt_separator: <!--more-->  # you can specify your own separator, of course.
