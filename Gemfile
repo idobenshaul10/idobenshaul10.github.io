@@ -1,58 +1,26 @@
-# XXX This file is only used by GitHub Pages, when deploying online
-# Checkout https://pages.github.com/versions/ for the list of Github Pages built-in plugins
+source "https://rubygems.org"
+ruby RUBY_VERSION
 
-# XXX --------- Specific to GHP config ------------
-remote_theme: pmarsceill/just-the-docs@v0.3.0 # XXX Our Jekyll theme - See https://pmarsceill.github.io/just-the-docs/
-ga_tracking: UA-89785688-8 # See https://pmarsceill.github.io/just-the-docs/docs/configuration/#google-analytics
+gem "github-pages"
 
-# XXX --------- Common to all configs (local + GHP) --------------
+# Hello! This is where you manage which Jekyll version is used to run.
+# When you want to use a different version, change it below, save the
+# file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
+#
+#     bundle exec jekyll serve
+#
+# This will help ensure the proper Jekyll version is running.
+# Happy Jekylling!
+# gem "jekyll", "3.3.1"
 
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+# This is the default theme for new Jekyll sites. You may change this to anything you like.
+gem "minima", "~> 2.0"
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: Next Right Now
-description: >- # this means to ignore newlines until "baseurl:"
-  Flexible production-grade boilerplate with Next.js 11, Vercel and TypeScript.
-  Includes multiple opt-in presets using Storybook, Airtable, GraphQL, Analytics, CSS-in-JS, Monitoring, End-to-end testing, Internationalization,
-  CI/CD and SaaS B2B multi single-tenancy (monorepo) support
-#baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com XXX Auto-resolved by GitHub
+# If you want to use GitHub Pages, remove the "gem "jekyll"" above and
+# uncomment the line below. To upgrade, run `bundle update github-pages`.
+# gem "github-pages", group: :jekyll_plugins
 
-# Aux links for the upper right navigation
-aux_links:
-  "Home": "/next-right-now"
-  "Github": "https://github.com/UnlyEd/next-right-now"
-  "About us": "https://github.com/UnlyEd/Unly"
-
-footer_content: "Copyright &copy; 2020 Unly. <a href=\"https://github.com/UnlyEd/next-right-now/blob/master/LICENSE\">MIT license.</a>"
-#color_scheme: "dark"
-nrn_default_preset: v2-mst-aptd-at-lcz-sty # Default NRN preset, used as quick start preset
-
-plugins:
-  - jekyll-sitemap
-  - jemoji
-
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-exclude:
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor/bundle/
-  - vendor/cache/
-  - vendor/gems/
-  - vendor/ruby/
-
-  # Custom
-  - .idea/
-  - .github/
-  - .next/
-  - .now/
-  - coverage/
-  - cypress/
+# If you have any plugins, put them here!
+group :jekyll_plugins do
+   gem "jekyll-feed", "~> 0.6"
+end
