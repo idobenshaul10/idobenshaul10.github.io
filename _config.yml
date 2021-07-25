@@ -21,6 +21,8 @@ kramdown:
   math_engine: mathjax
 
 theme: jekyll-theme-architect
+gem "github-pages", group: :jekyll_plugins
+
 
 gems:
   - jekyll-feed
