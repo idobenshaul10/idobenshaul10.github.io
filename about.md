@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About me
+title: About
 permalink: /about/
 ---
 
@@ -14,9 +14,3 @@ I am a 24 year old Phd. Candidate in Applied Math at Tel Aviv University. My adv
 
 ## Getting in touch
 Email: ido.benshaul@gmail.com
-
-[Linkedin](http://www.linkedin.com/in/ido-ben-shaul-482449147/)
-
-[Twitter](http://twitter.com/ml_norms)
-
-[Github](http://github.com/idobenshaul10)

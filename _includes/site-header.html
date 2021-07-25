@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
-<header class="site-header" role="banner">
+<header class="site-header" role="banner" style="height: 120px;">
 
   <div class="wrapper">
     {% assign default_paths = site.pages | map: "path" %}
@@ -33,7 +33,7 @@
             {% if my_page.title %}
               {% if my_page.title contains "404" %}
               {% else %}
-                <a class="inner" style="color:#abd8ff;" class="page-link" 
+                <a class="inner" style="color:#ffffff;font-size: 20px;padding-right:10px" class="page-link" 
                  href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
               {% endif %}
             {% endif %}
@@ -41,6 +41,8 @@
         </div>
       </nav>
     {% endif %}
-    {% include contact_bar.html %}
+    <div style="position:relative;border-bottom:3px solid #040D4A;border-top:3px solid #040D4A; bottom:-5px; padding-top:6px;background-color:#ffffff">
+      {% include contact_bar.html %}
+    </div>
   </div>
 </header>
