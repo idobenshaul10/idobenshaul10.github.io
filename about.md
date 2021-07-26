@@ -14,6 +14,3 @@ permalink: /about/
 I am a 24 year old Phd. Candidate in Applied Math at Tel Aviv University. My advisors are [Shai Dekel](https://www.shaidekel.com/) and [Nir Sochen](http://www.math.tau.ac.il/~sochen/). My field of interest is the Mathematical Foundation of Machine Learning. I am also a Team Lead at [DeePathology.ai](https://deepathology.ai/).
 
 <img src="{{ '/assets/umap_cifar10.jpg' | prepend: site.baseurl }}" alt="drawing" />
-
-## Getting in touch
-Email: ido.benshaul@gmail.com
