@@ -7,3 +7,5 @@
 #
 layout: home
 ---
+
+<img src="{{ '/assets/folding_ball.png' | prepend: site.baseurl }}" alt="drawing" width="4000px"/>
