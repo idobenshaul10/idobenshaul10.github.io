@@ -11,15 +11,14 @@ title: Publications
 - [Certainty Pooling for Multiple Instance Learning](https://link.springer.com/chapter/10.1007%2F978-3-030-68763-2_11)  - Jacob Gildenblat, Ido Ben-Shaul, Zvi Lapp, Eldad Klaiman - Accepted to International Workshop on Artificial Intelligence for Digital Pathology - In conjunction with the 25th  International Conference on Pattern Recognition.
 
 <!-- ![Ido]({{ site.url }}/assets/certainty_pooling.png) -->
-<img src="{{ '/assets/certainty_pooling.png' | prepend: site.baseurl }}" alt="drawing" style="width:400px;" />
+<img src="{{ '/assets/certainty_pooling.png' | prepend: site.baseurl }}" alt="drawing" style="width:75%%;" />
 {% include youtubePlayer.html id="BhtXoGjWZGk" %}
 
 
 
 - [Solving the functional Eigen-Problem using Neural Networks](https://arxiv.org/abs/2007.10205) - Ido Ben-Shaul, Leah Bar, Nir Sochen -  Submitted
 
-<!-- ![Ido]({{ site.url }}/assets/eignpair_M_4.png) -->
-<img src="{{ '/assets/eignpair_M_4.png' | prepend: site.baseurl }}" alt="drawing" style="width:400px;" />
+<img src="{{ '/assets/eignpair_M_4.png' | prepend: site.baseurl }}" alt="drawing" style="width:75%;" />
 
 {% include youtubePlayer.html id="ZPq85K76CPA" %}
 

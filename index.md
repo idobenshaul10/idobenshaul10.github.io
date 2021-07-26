@@ -8,7 +8,7 @@
 layout: home
 ---
 
-<img src="{{ '/assets/folding_ball.png' | prepend: site.baseurl }}" alt="drawing" width="4000px"/>
+<img src="{{ '/assets/folding_ball.png' | prepend: site.baseurl }}" alt="drawing" width="100%"/>
 
 ## News and Updates
 - New paper released:  "Sparsity Probe: Analysis tool for Deep Learning Models" -  [Paper](https://arxiv.org/abs/2105.06849),  [Baseline Code](https://github.com/idobenshaul10/SparsityProbe)
