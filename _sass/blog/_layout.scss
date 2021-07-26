@@ -9,6 +9,22 @@
   position: relative;
 }
 
+.column {
+  width: 100%;
+}
+
+@media (min-width: 600px) {
+  .column {
+    width: 50%;
+  }
+}
+
+
+img {
+  max-width: 100%;
+}
+
+
 .site-title {
   @include relative-font-size(1.4);
   font-weight: 300;
