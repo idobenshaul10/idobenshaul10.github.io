@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lora">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
 <header class="site-header" role="banner" > <!-- style="height: 120px;"> -->
 
   <div class="wrapper">
@@ -33,7 +34,7 @@
             {% if my_page.title %}
               {% if my_page.title contains "404" %}
               {% else %}
-                <a class="inner" style="color:#ffffff;font-size: 20px;padding-right:10px" class="page-link" 
+                <a class="inner" style="color:#ffffff;font-size: 20px" class="page-link" 
                  href="{{ my_page.url | relative_url }}">{{ my_page.title | escape }}</a>
               {% endif %}
             {% endif %}
